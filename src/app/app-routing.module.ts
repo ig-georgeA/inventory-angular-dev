@@ -11,7 +11,7 @@ import { CustomersComponent } from './customers/customers.component';
 import { ReportsComponent } from './reports/reports.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '', redirectTo: 'products', pathMatch: 'full' },
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'home', component: HomeComponent, data: { text: 'Home' } },
   { path: 'products', component: ProductsComponent, data: { text: 'Products' } },
